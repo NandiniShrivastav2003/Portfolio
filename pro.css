@@ -1,0 +1,85 @@
+ul li{
+    list-style-type: none;
+    margin-bottom: 14px;
+}
+body{
+    font-family: 'Joan', serif;
+  font-family: 'Merriweather Sans', sans-serif;
+  /* From https://css.glass */
+background: rgba(242, 103, 184, 0.1);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.6px);
+-webkit-backdrop-filter: blur(3.6px);
+border: 1px solid rgba(242, 103, 184, 0.28);
+  
+  }
+  #project{
+    height: 78vh;
+    width: 46vw;
+    background-color: aliceblue;
+    position: absolute;
+    top: 78px;
+    left: 303px;
+  }
+  h1{
+    text-align: center;
+  }
+  .all{
+    padding-left: 131px;
+    padding-top: 88px;
+  }
+  #view{
+    left: 120px;
+    position: relative;
+  }
+  #git{
+    position: relative;
+    left: 125px;
+
+
+  }
+  @media screen and (max-width:600px){
+    #project{
+    position: absolute;
+   
+   
+      top: 76px;
+      left: 85px;
+      padding: 2px;
+    }
+    .all{
+    padding-left: 9px;
+    padding-top: 44px;
+  }
+  #view {
+    left: 9px;
+    position: relative;
+}
+#git{
+position: relative;
+    left: 57px;
+}
+  }
+  @media screen and (min-width:600px) and (max-width:800px){
+    #project{
+  height: 84vh;
+  width: 46vw;
+  background-color: aliceblue;
+  position: absolute;
+  top: 72px;
+  left: 141px;
+    }
+    .all{
+      padding-left: 30px;
+      padding-top: 44px;
+    }
+    #view {
+      left: 28px;
+      position: relative;
+  }
+  #git{
+      left: 28px;
+      position: relative;
+  }
+  }
